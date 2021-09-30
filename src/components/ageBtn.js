@@ -11,4 +11,4 @@ const AgeBtn = ({handleAge}) => {
   )
 }
 
-export default AgeBtn;
+export default React.memo(AgeBtn);

@@ -11,4 +11,4 @@ const CountBtn = ({handleCount}) => {
   )
 }
 
-export default CountBtn;
+export default React.memo(CountBtn);

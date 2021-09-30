@@ -9,4 +9,4 @@ const Age = ({age}) => {
   )
 }
 
-export default Age;
+export default React.memo(Age);
